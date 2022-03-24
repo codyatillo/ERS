@@ -1,0 +1,45 @@
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo_img {
+    width: 100%;
+}
+
+.nav_login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.login_btns {
+    position: absolute;
+    right: 10px;
+}
+
+.signIn_btn {
+    border: none;
+    background-color: #e50914;
+    padding: 7px 48px;
+    border-radius: 7px;
+    color: white;
+    size: 0px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.signIn_btn:hover{
+    box-shadow: 0px 0px 9px 3px red;
+    text-decoration: none;
+}
+
+.login_btns {
+    margin-right: 10px;
+}
+
+.logo_layout{
+    width: 100%;
+    background-image: url("/asses/Logo.svg");
+}
